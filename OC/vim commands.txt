@@ -1,0 +1,42 @@
+
+all these commands have to typed in the command mode(press Esc key)
+
+k -- goes up one line
+j -- goes below one line
+h -- goes to the left
+l -- goes to the right
+
+i -- inserts text before curr position
+I -- inserts text at the beginning of the line
+a -- inserts text after curr position
+A -- inserts text at the end of the line
+
+o -- creates new line below the curr line
+O -- creates new line above the curr line
+
+x -- deletes the char at the curr position
+
+dw -- deletes the curr word and goes to the next word
+d^ --n deletes from the beginning of the line to the current cursor position
+
+D -- deletes everything till the end of the curr line from the cursor position
+dd -- deletes the whole line
+
+
+yy -- copies the current line
+p  -- pastes the copied text in the next line
+
+
+? , / --  specifies the direction in which the search is to be made.  ? -- searches backward, / -- searches forward
+
+$ -- searches for a pattern at the end of the line.
+^ -- searches for a pattern at the beginning of the line
+
+:set nu -- displays line numbers
+
+gg - navigate to starting of the file
+G - navigate to end of the file
+
+
+
+
